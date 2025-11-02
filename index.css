@@ -7,7 +7,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+}
+body {
+  background-color: #ffffff;
 }
 
 .header {
@@ -19,35 +21,37 @@
   font-size: 36px;
 }
 
-.main{
-    margin: auto;
-    max-width: 70%;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.main {
+  margin: auto;
+  max-width: 70%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.jogador{
-    margin-bottom: 10px;
-    font-family: 'orbitron';
-}
-.nav{
-    max-width: 70%;
-    text-align: center;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    font-size: 30px;
+.jogador {
+  margin-bottom: 10px;
+  font-family: 'orbitron';
 }
 
-.atualizar{
-    cursor: pointer;
-    font-family: 'Bungee Spice', cursive;
-    color: #0870e6;
+.nav {
+  max-width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-size: 30px;
 }
-.atualizar:hover{
-    color: #054bb5;
+
+.atualizar {
+  cursor: pointer;
+  font-family: 'Bungee Spice', cursive;
+  color: #0870e6;
+}
+
+.atualizar:hover {
+  color: #054bb5;
 }
 
 .footer {
@@ -58,5 +62,81 @@
   font-family: 'Indie Flower', cursive;
   margin-bottom: 0;
   font-size: 20px;
-  background-color:  #0870e6;
+  background-color: #0870e6;
+}
+
+@media (max-width: 1024px) {
+  .main {
+    max-width: 90%;
+  }
+
+  .nav {
+    max-width: 90%;
+    font-size: 26px;
+  }
+
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .footer {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .jogador1, .jogador2 {
+    width: 100%;
+  }
+
+  img {
+    width: 130px;
+    height: auto;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .nav {
+    font-size: 24px;
+  }
+
+  .footer {
+    font-size: 17px;
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .nav {
+    font-size: 20px;
+  }
+
+  .main {
+    max-width: 95%;
+    gap: 20px;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  .jogador {
+    font-size: 18px;
+  }
+
+  .footer {
+    font-size: 16px;
+  }
 }
