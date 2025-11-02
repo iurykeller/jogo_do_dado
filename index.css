@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Honk&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Bungee+Spice&family=Honk&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Bungee+Spice&family=Honk&family=Indie+Flower&family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Bungee+Spice&family=Honk&family=Indie+Flower&family=Marck+Script&family=Orbitron:wght@400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.header {
+  background-color: #0870e6;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'honk', cursive;
+  font-size: 36px;
+}
+
+.main{
+    margin: auto;
+    max-width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.jogador{
+    margin-bottom: 10px;
+    font-family: 'orbitron';
+}
+.nav{
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.atualizar{
+    cursor: pointer;
+    font-family: 'Bungee Spice', cursive;
+    color: #0870e6;
+}
+.atualizar:hover{
+    color: #054bb5;
+}
+
+.footer {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 60px;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 0;
+  font-size: 20px;
+  background-color:  #0870e6;
+}
